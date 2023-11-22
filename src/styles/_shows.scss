@@ -2,6 +2,7 @@
 
 .shows {
     padding: 2vw 5.6vw;
+    min-height: 50vw;
 
     &__list {
         margin-top: 44px;
@@ -25,6 +26,7 @@
         display: flex;
         justify-content: center;
         &__button {
+            width: 100%;
             color: variaveis.$corTextoSecundario;
             font-size: 20px;
             border: none;
@@ -42,3 +44,4 @@
         }
     }
 }
+
